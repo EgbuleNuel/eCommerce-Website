@@ -1,5 +1,5 @@
 const bar = document.getElementById("bar");
-const close = document.getElementById("close");
+const closebtn = document.getElementById("close-btn");
 const nav = document.getElementById("navbar");
 
 if (bar) {
@@ -8,8 +8,8 @@ if (bar) {
   });
 }
 
-if (close) {
-  bar.addEventListener("click", () => {
+if (closebtn) {
+  closebtn.addEventListener("click", () => {
     nav.classList.remove("active");
   });
 }
