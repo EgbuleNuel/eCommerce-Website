@@ -98,7 +98,7 @@
 
     <!-- features -->
     <section id="product1" class="section-p1">
-      <h2>New Arrivals</h2>
+      <h2>Feature Products</h2>
       <p>Summer Collection New Modern Designs</p>
       <div class="pro-container">
         <div class="pro">
@@ -151,70 +151,6 @@
         </div>
         <div class="pro">
           <img src="img/products/n4.jpg" alt="" />
-          <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirt</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-        </div>
-        <div class="pro">
-          <img src="img/products/n5.jpg" alt="" />
-          <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirt</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-        </div>
-        <div class="pro">
-          <img src="img/products/n6.jpg" alt="" />
-          <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirt</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-        </div>
-        <div class="pro">
-          <img src="img/products/n7.jpg" alt="" />
-          <div class="des">
-            <span>adidas</span>
-            <h5>Cartoon Astronaut T-Shirt</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>$78</h4>
-          </div>
-          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-        </div>
-        <div class="pro">
-          <img src="img/products/n8.jpg" alt="" />
           <div class="des">
             <span>adidas</span>
             <h5>Cartoon Astronaut T-Shirt</h5>
@@ -296,6 +232,24 @@
         <p>2023, Egbule Emmanuel</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img-col");
+
+      smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+      }
+      smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+      }
+      smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+      }
+      smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+      }
+    </script>
 
     <script src="script.js"></script>
   </body>
